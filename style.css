@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    overflow-x: hidden;
+}
+
+
+.header{
+    background: #3b3c43;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    
+
+    
+}
+.header .logo img{
+    height: 60px;
+    margin-left: 50px;
+    float: left;
+}
+.header input{
+    margin-left: 80px;
+    font-size: 16px;
+   
+    width: 400px;
+    height: 47px;
+    margin-top: 4px;
+
+}  
+.header input placeholder{
+    font-size: 12px;
+}  
+.header .support img{
+    margin-top: 4px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 54px;
+}
+.header2{
+    width: 100%;
+    height: 44px;
+    
+}
+.header2 ul li {
+    float: left;
+    list-style: none;
+    
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: black;
+    margin:0 25px ;
+    
+}
+.header2 ul{
+    margin: 15px 150px;
+    
+
+}
+.content1{
+    position: relative;
+    width: 100%;
+    height: 450px;
+  
+}
+.content1  .sonnet-img img{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.content1 h1{
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.content1 p{
+    position: absolute;
+    top: 0;
+    margin-top: 210px;
+    margin-left: 100px;
+    color: white;
+    font-size: 22px;
+    
+    
+}
+.Discover{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 141px;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 14%;
+    height: 10%;
+    color:grey;
+    transition: all 0.1s;
+
+}
+.Discover:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.content2{
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+   
+.content2 .sthalf img{
+  width: 50%;
+  height: 100vh;
+  padding-top: 30px;
+  float: left   ;
+
+}
+ .secondhalf {
+     position: relative;
+     display: flex;
+     width: 50%;
+     height: 100vh;
+     justify-content: center;
+    align-items: center;
+     
+    
+    
+}
+
+.secondhalf h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 130px;
+    color: black;
+    letter-spacing: 2px;
+    
+}
+.secondhalf p{
+    position: absolute;
+    margin-top:60px;
+    margin-right: 10px;
+    font-size: 17px;
+    
+}
+.Discover1{
+    position: absolute;
+    margin-top:180px;
+    margin-right: 139px;
+    width: 25%;
+    height: 9%;
+    margin-top:200px;
+    transition: all 0.1s;
+    color: white;
+    background-color: #3b3c43;
+    
+}
+.Discover1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.content3{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+   margin-top: 40px;
+    
+    
+    
+    
+    
+    
+}
+.content3 .image img{
+    width: 50%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height:95% ;
+    justify-content: center;
+    align-items: center;
+     display: flex;
+    
+    
+    
+}
+.content3 .caption{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+    
+    
+    
+}
+
+
+.caption h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    
+    
+}
+.caption p{
+    margin-right: 80px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.Discover2{
+    position: absolute;
+    margin-top:180px;
+    margin-right: 220px;
+    width: 25%;
+    height: 8%;
+    transition: all 0.1s;
+    color: white;
+    background-color: #3b3c43;
+    
+
+}
+.Discover2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.content4{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+   
+    
+   
+}
+.content4 .image2 img{
+    width: 50%;
+    height: 100vh;
+    float: left  ;
+    top: 0;
+    left: 0;
+    
+  
+  }
+  .caption2 {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+   
+    
+   
+   
+}
+.caption2 h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 130px;
+    font-size: 33px;
+    font-family: sans-serif;
+    
+    
+}
+.caption2 p{
+    position: absolute;
+    margin-top:60px;
+    margin-right: 83px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+    
+}
+.Discover3{
+    position: absolute;
+    margin-top:200px;
+    margin-right: 250px;
+    width: 23%;
+    height: 8%;
+    color: white;
+    background-color: #3b3c43;
+    transition: all 0.1s;
+    
+}
+.Discover3:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.content5{
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    margin-top: 20px;
+    
+   
+}
+.content5 .image3 img{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    position: relative;
+}    
+.content5 h1{
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 80px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.content5 p{
+    position: absolute;
+    top: 0;
+    margin-top: 170px;
+    margin-left: 84px;
+    font-size: 18px;
+    color: white;
+}
+.Discover4{
+    position:absolute;
+    top: 0;
+    margin-top: 250px;
+    margin-left: 90px;
+    width: 14%;
+    height: 11%;
+    transition: all 0.1s;
+    
+}
+.Discover4:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.content6{
+   width: 100%;
+   height: 79vh;
+   margin-top: 10px;
+   position: relative;
+   
+
+}
+.content6 .image4 img{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.content6 h1{
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 110px;
+    margin-left: 80px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 10px;
+
+}
+.content6 p{
+    position: absolute;
+    top: 0;
+    margin-top: 175px;
+    margin-left: 86px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.Discover5{
+    position:absolute;
+    top: 0;
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 14%;
+    height: 10%;
+    transition: all 0.1s;
+    
+
+
+}
+.Discover5:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.content7{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+}
+.content7 h1{
+    margin-top: 40px;
+    margin-left: 530px;
+    position: absolute;
+
+    
+}
+.content7 p {
+    margin-top: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 180px;
+    
+    
+    
+}
+ hr{
+    
+    margin-top: 60px;
+    height: 1px;
+    
+    
+}
+.paragraph {
+    width: 100%;
+    text-align: center;
+}
+.content8 {
+    
+    height: 30vh;
+    position: relative;
+    
+    
+    }
+    .content8 h5{
+        margin-left: 80px;
+        margin-top: 25px;
+        font-family: sans-serif;
+    }
+    .content8 input{
+        margin-left: 80px;
+        margin-top: 5px;
+        font-size: 16px;
+        position: relative;
+        width: 220px;
+        height: 47px;
+    }
+
+    .content8 ::placeholder{
+        color: black;
+        
+    }
+    .content8 button{
+        width:110px;
+        height: 50px;
+        background-color: #3b3c43;
+        color: white;
+        position: absolute;
+        margin-top: 5px;
+    }
+.content8 p{
+    margin-left: 80px;
+    font-size:14px ;
+    margin-top: 5px;
+    
+}
+.icons {
+    float: right;
+    position: absolute;
+    top: 19px;
+    right: 0;
+    margin-right: 20vh;
+    border-radius: 20PX;
+    justify-content: space-between;
+    
+
+} 
+ .img1{
+    border-radius: 30px;
+    margin-top: 20px;
+    top: 50px;
+    border-color: black;
+    
+ }   
+ .img2{
+    border-radius: 50px;
+    border-color: black;
+ }
+ .img3{
+    border-radius: 0px;
+ }
+ .content8 hr{
+    height: 2px;
+    background: grey;
+ }  
+ .content9 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    
+ }
+ .content9 h3{
+    margin-top: 50px;
+    margin-left: 85px;
+ } 
+ .content9 ul{
+    margin-left: 43px;
+   line-height: 30px;
+  
+ }
+ .set2 h3{
+   margin-left: 150px;
+    
+
+ }
+ .set2 ul{
+    margin-left: 75px;
+ }
+ .set3 ul{
+    margin-left: 85px;
+
+ }
+ .content10{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+ }
+
+.content10 img{
+    margin-left: 80px;
+    width: 60px;
+    margin-top: 10px;
+}
+ .content10 P{
+    margin-left: 180px;
+    font-family:sans-serif;
+    font-size: 12px;
+    margin-top: -31px;
+ }
+
+
+
+    
+
+    
+
+    
+
